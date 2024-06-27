@@ -1,0 +1,254 @@
+
+#first{
+    background-color:black;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.box{
+    position: static;
+    top:60px;
+    height: 80%;
+    right:1px;
+    width: 90%;
+    border: 200px;
+    background-color: rgb(196, 154, 103);
+    margin: 100px;
+    border-radius:60px;
+    border:20px;
+    box-shadow: 7px 5px 5px 7px black;
+    align-items:center;
+    justify-content:center;
+
+}
+#we{ 
+    justify-content: right;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+h1{
+    top: 100%;
+    text-align: center;
+    font-size: 300%;
+    font: serif;
+    
+}
+#img {
+    border-radius: 50%;
+  float: right;
+  margin-top:40px;
+  margin-right:30px;
+  transition: 1s;
+  
+}
+
+nav{
+    background-color:black;
+    border:5px;
+    height:50px;
+    overflow: auto;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+a{
+    color: azure;
+    text-align: center;
+    padding-top: 50%;
+    font-size: 200%;
+    float: left;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 31.5%; 
+    text-align: center;
+  }
+a:hover {
+    background-color:cornflowerblue;
+}
+
+
+
+#tab {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    justify-content: center;
+
+  }
+  
+  #tab td, #tab th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tab tr:hover {background-color: #ddd;}
+  
+  #tab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: yellow;
+    color: black;
+  }
+  #third{
+    background-color: rgb(18, 121, 37);
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position: static;
+}
+.thi{
+    position: static;
+    top:60px;
+    height: 80%;
+    right:1px;
+    width: 100%;
+    border: 100px;
+    background-color: #abef67;
+    margin: 60px;
+    border-radius:60px;
+    border:20px;
+    box-shadow: 7px 5px 5px 7px black;
+    align-items:center;
+    justify-content:center;
+}
+.fa-instagram{
+    font-size: 7rem;
+    color:white;
+}
+.fa-facebook{
+    font-size: 6rem;
+    color:white;
+}
+.fa-envelope{
+    font-size: 6rem;
+    color:white;
+
+}
+p{
+    text-align: center;
+}
+/* #for{
+    background-color: #930d85;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+} */
+
+
+h1{
+    color: whitesmoke;
+}
+::-webkit-scrollbar-track{
+    background-color: #ddd;
+}
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10%;
+}
+.hire{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: red;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        text-align: center;
+        
+      }
+    
+      .hire:hover {
+        background-color:rgb(66, 100, 31);
+      }
+    
+    
+    
+.d{
+    position:static;
+    height: 40%;
+    width: 50%;
+    font-size: 150%;
+    margin-right: 55%;
+    margin-top: 4vh;
+    color:white;
+    
+}
+#first {
+        background-image: url("bg.jpg");
+        background-color: #cccccc;
+       }
+       
+#me  {
+    padding-left: 90vh;
+}
+#last {
+    background-color: black;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fnt {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 30px;
+}
+
+#gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
